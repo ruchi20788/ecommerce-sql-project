@@ -1,2 +1,25 @@
-# ecommerce-sql-project
-I designed an e-commerce database with 4 tables: customers, products, orders, and order details. I implemented primary keys, foreign keys, and a many-to-many relationship using a composite key. I performed joins and aggregation queries to generate insights like total revenue, top customers, and best-selling products.
+# 🛒 E-Commerce SQL Project
+
+## 📌 Overview
+This project demonstrates an E-commerce database using SQL.
+
+## 🧱 Tables
+- customersp
+- productsp
+- ordersp
+- orderdetailssp
+
+## 🔗 Relationships
+- One-to-Many → Customers → Orders
+- Many-to-Many → Orders ↔ Products
+
+## 📊 Features
+- Joins
+- Aggregations
+- Business queries
+
+## 🚀 How to Use
+Run SQL scripts in this order:
+1. schema.sql
+2. data.sql
+3. queries.sql
